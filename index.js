@@ -1,5 +1,5 @@
 const { exec } = require('child_process');
-const scriptPath = "/workspaces/Livestream-24-7/live.sh"; // Update with the correct path
+const scriptPath = "/workspaces/live.sh"; // Update with the correct path
 
 const yourscript = exec(`bash ${scriptPath}`, (error, stdout, stderr) => {
     if (error) {
